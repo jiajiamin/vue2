@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2021-01-29 10:41:36
+ * @LastEditTime: 2021-01-29 10:49:37
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \vue3\vue2\src\router\index.js
+ */
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
@@ -21,7 +29,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'history', // hash也可以
   base: process.env.BASE_URL,
   routes
 })
